@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="remark.css">
+  </head>
+  <body>
+    <!-- <script src="http://gnab.github.io/remark/downloads/remark-latest.min.js" type="text/javascript"> -->
+    <script src="remark-latest.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var hljs = remark.highlighter.engine;
+      var slideshow = remark.create({
+        highlightStyle: 'monokai',
+        sourceUrl: 'slide.md',
+        // for 16:9 screen
+        // ratio: '16:9'
+      });
+    </script>
+  </body>
+</html>
